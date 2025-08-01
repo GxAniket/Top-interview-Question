@@ -16,4 +16,4 @@ Thanks & Happy Coding! 💙
 ---
 
 ## 📄 Download the PDF List  
-👉 [Top_50_Java_DSA_Questions.pdf](https://github.com/user-attachments/files/21300281/Top_50_Java_DSA_Questions.pdf)
+👉 [Top_50_Java_DSA_Questions.pdf]
