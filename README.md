@@ -1,7 +1,7 @@
 <h1 align="center">🧠 Top Interview Questions on LeetCode — Java DSA for Service-Based Companies</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Master+DSA+for+Placements;Java+Coding+Solutions+with+Explanations;Built+by+Aniket+Sundriyal" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Master+DSA+for+Placements;Coding+Solutions;Built+by+Aniket+Sundriyal" alt="Typing animation" />
 </p>
 
 ---
@@ -53,6 +53,11 @@ top interview questions on leetcode/
 
 ---
 
+## 🚀 Proof Of work
+
+<img width="1899" height="914" alt="image" src="https://github.com/user-attachments/assets/2332a587-7b8a-47b7-bc1a-a9cb7c9c0559" />
+
+---
 ## 🚀 Upcoming Additions
 - Add Medium & Hard LeetCode problems
 - Include time and space complexity for each solution
@@ -72,6 +77,10 @@ top interview questions on leetcode/
 
 If this repo helped you, feel free to ⭐ star it — it motivates me to keep sharing more!
 Got suggestions? Drop them here or connect on LinkedIn!
+
+![ThankYouForAllTheLoveAndSupportCameoGIF](https://github.com/user-attachments/assets/f512d6d9-3bf8-4f37-9040-87010cbb3506)
+
+
 
 ---
 
