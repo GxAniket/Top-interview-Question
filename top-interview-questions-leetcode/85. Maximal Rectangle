@@ -1,0 +1,56 @@
+class Solution {
+    public int maximalRectangle(char[][] matrix) {
+
+        int n = matrix.length;
+        int col = matrix[0].length;
+        int maxArea = 0;
+
+        int[] histo = new int[col];
+
+        for (int i = 0; i < n; i++) {
+
+            // 1️⃣ build histogram for current row
+            for (int j = 0; j < col; j++) {
+                if (matrix[i][j] == '1')
+                    histo[j]++;
+                else
+                    histo[j] = 0;
+            }
+
+            // 2️⃣ largest rectangle in histogram
+            Stack<Integer> S = new Stack<>();
+            int[] ps = new int[col];
+            int[] ns = new int[col];
+
+            // previous smaller
+            for (int k = 0; k < col; k++) {
+                while (!S.isEmpty() && histo[k] <= histo[S.peek()])
+                    S.pop();
+
+                ps[k] = S.isEmpty() ? -1 : S.peek();
+                S.push(k);
+            }
+
+            S.clear();
+
+          
+            for (int k = col - 1; k >= 0; k--) {
+                while (!S.isEmpty() && histo[k] <= histo[S.peek()])
+                    S.pop();
+
+                ns[k] = S.isEmpty() ? col : S.peek();
+                S.push(k);
+            }
+
+           
+            for (int k = 0; k < col; k++) {
+                maxArea = Math.max(
+                    maxArea,
+                    (ns[k] - ps[k] - 1) * histo[k]
+                );
+            }
+        }
+
+        return maxArea;
+    }
+}
