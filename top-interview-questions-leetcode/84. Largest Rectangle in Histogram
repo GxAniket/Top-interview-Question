@@ -1,0 +1,41 @@
+class Solution {
+    public int largestRectangleArea(int[] heights) {
+        
+        Stack<Integer> S = new Stack<>();
+        int n = heights.length;
+        int [] ns = new int[n];
+        int [] ps = new int[n];
+        int maxArea = 0;
+
+        for(int i = 0; i<n; i++){
+            while(!S.isEmpty() && heights[i]<=heights[S.peek()]){
+                S.pop();
+            }
+
+            ps[i]= S.isEmpty()? -1:S.peek();
+
+            S.push(i);  
+        }
+
+        S.clear();
+
+        for(int i = n-1; i>=0; i--){
+            while(!S.isEmpty() && heights[i]<=heights[S.peek()]){
+                S.pop();
+            }
+
+            ns[i] = S.isEmpty()? n:S.peek();
+
+            S.push(i);
+        }
+        
+        for(int i = 0; i<n; i++){
+
+            maxArea = Math.max(maxArea,(ns[i]-ps[i]-1)*heights[i]);
+
+        }
+
+        return maxArea;
+
+    }
+}
