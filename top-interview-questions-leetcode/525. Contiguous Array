@@ -1,20 +1,40 @@
+import java.util.HashMap;
+
 class Solution {
     public int findMaxLength(int[] nums) {
+        
+        // Map to store: prefixSum -> first occurrence index
         HashMap<Integer, Integer> map = new HashMap<>();
+        
+        // Important: sum 0 at index -1 (handles subarray starting from index 0)
         map.put(0, -1);
 
-        int sum = 0;
-        int max = 0;
+        int sum = 0;   // prefix sum (treat 0 as -1, 1 as +1)
+        int max = 0;   // stores maximum length found
 
         for (int i = 0; i < nums.length; i++) {
+
+            // Convert 0 → -1 and 1 → +1
+            // This helps us transform the problem into finding subarray with sum = 0
             sum += (nums[i] == 0) ? -1 : 1;
 
+            // If this prefix sum was seen before,
+            // it means subarray between previous index and current index has sum = 0
             if (map.containsKey(sum)) {
-                max = Math.max(max, i - map.get(sum));
+                
+                // Calculate subarray length
+                int length = i - map.get(sum);
+                
+                // Update maximum length if current length is greater
+                max = Math.max(max, length);
+
             } else {
+                // Store first occurrence of this prefix sum
+                // We store first occurrence to maximize subarray length
                 map.put(sum, i);
             }
         }
-        return max;
+
+        return max;  // return the longest balanced subarray length
     }
 }
