@@ -6,6 +6,13 @@
 
 ---
 
+<p align="center">
+  <a href="https://leetcode.com/u/rxyU5V12At/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-View%20Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+  </a>
+</p>
+
+---
 ## 📦 Overview
 
 This repository contains a hand-picked collection of the **top interview questions** from **LeetCode** — specifically targeted for **service-based companies** like **TCS**, **Wipro**, **Infosys**, **Cognizant**, and more.
@@ -53,18 +60,10 @@ top interview questions on leetcode/
 
 ---
 
-## 🚀 Proof Of Work
-
-Here’s a glimpse of the structured Java solutions in this repo 🚀
-
-<img width="1899" height="914" alt="image" src="https://github.com/user-attachments/assets/2332a587-7b8a-47b7-bc1a-a9cb7c9c0559" />
-
----
-
 ## 🗂️ Problem Categories
 
-- [Arrays / Strings](#-arrays--strings)
-- [Two Pointers](#-two-pointers)
+- [Arrays / Strings]([#-arrays--strings](https://github.com/GxAniket/Top-interview-Question/tree/main/top-interview-questions-leetcode))
+- [Two Pointers]([#-two-pointers](https://github.com/GxAniket/Top-interview-Question/tree/main/Two%20Pointers))
 - [Sliding Window](#-sliding-window)
 - [Linked List](#-linked-list)
 - [Binary Tree](#-binary-tree-general)
@@ -226,6 +225,7 @@ Here’s a glimpse of the structured Java solutions in this repo 🚀
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> 
   </a> 
 </p>
+
 
 ---
 
