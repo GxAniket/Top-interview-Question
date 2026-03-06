@@ -47,24 +47,11 @@ All solutions are implemented in **Java**, with a focus on:
 
 ---
 
-## 📁 Folder Structure
-
-<pre>
-top interview questions on leetcode/
-├── ReverseArray.java
-├── TwoSum.java
-├── PalindromeNumber.java
-├── ...
-└── README.md
-</pre>
-
----
-
 ## 🗂️ Problem Categories
 
 - [Arrays / Strings](https://github.com/GxAniket/Top-interview-Question/tree/main/top-interview-questions-leetcode)
 - [Two Pointers](https://github.com/GxAniket/Top-interview-Question/tree/main/Two%20Pointers)
-- [Sliding Window](#sliding-window)
+- [Sliding Window](https://github.com/GxAniket/Top-interview-Question/tree/main/Sliding%20Window)
 - [Linked List](#linked-list)
 - [Binary Tree](#binary-tree-general)
 - [Binary Search](#binary-search)
@@ -127,6 +114,7 @@ top interview questions on leetcode/
 - 3. Longest Substring Without Repeating Characters — Medium
 - 30. Substring with Concatenation of All Words — Hard
 - 76. Minimum Window Substring — Hard
+- 904. Fruit Into Baskets - Medium
 
 </details>
 
@@ -377,8 +365,6 @@ top interview questions on leetcode/
 
 If this repo helped you, feel free to ⭐ star it — it motivates me to keep sharing more!  
 Got suggestions? Drop them here or connect on LinkedIn!
-
-![ThankYouForAllTheLoveAndSupportCameoGIF](https://github.com/user-attachments/assets/f512d6d9-3bf8-4f37-9040-87010cbb3506)
 
 ---
 
