@@ -1,0 +1,64 @@
+Given two strings s and t of lengths m and n respectively, return the minimum window substring of s such that every character in t (including duplicates) is included in the window. If there is no such substring, return the empty string "".
+
+The testcases will be generated such that the answer is unique.
+
+Example 1:
+
+Input: s = "ADOBECODEBANC", t = "ABC"
+Output: "BANC"
+Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from string t.
+Example 2:
+
+Input: s = "a", t = "a"
+Output: "a"
+Explanation: The entire string s is the minimum window.
+Example 3:
+
+Input: s = "a", t = "aa"
+Output: ""
+Explanation: Both 'a's from t must be included in the window.
+Since the largest window of s only has one 'a', return empty string.
+
+//code 
+
+class Solution {
+    public String minWindow(String s, String t) {
+
+        Map<Character,Integer> map = new HashMap<>();
+
+        for(char c : t.toCharArray())
+            map.put(c, map.getOrDefault(c,0)+1);
+
+        int left = 0, count = t.length();
+        int minLen = Integer.MAX_VALUE, start = 0;
+
+        for(int right = 0; right < s.length(); right++){
+
+            char c = s.charAt(right);
+
+            if(map.containsKey(c)){
+                if(map.get(c) > 0) count--;
+                map.put(c, map.get(c)-1);
+            }
+
+            while(count == 0){
+
+                if(right-left+1 < minLen){
+                    minLen = right-left+1;
+                    start = left;
+                }
+
+                char l = s.charAt(left);
+
+                if(map.containsKey(l)){
+                    map.put(l, map.get(l)+1);
+                    if(map.get(l) > 0) count++;
+                }
+
+                left++;
+            }
+        }
+
+        return minLen == Integer.MAX_VALUE ? "" : s.substring(start,start+minLen);
+    }
+}
