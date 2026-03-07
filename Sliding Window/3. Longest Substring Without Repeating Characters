@@ -17,6 +17,28 @@ Output: 3
 Explanation: The answer is "wke", with the length of 3.
 Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
+//dry run 
+
+| Right | Character | Action                                  | Set After Step | Window (left→right) | Max Length |
+| ----- | --------- | --------------------------------------- | -------------- | ------------------- | ---------- |
+| 0     | a         | add                                     | {a}            | a                   | 1          |
+| 1     | b         | add                                     | {a,b}          | ab                  | 2          |
+| 2     | c         | add                                     | {a,b,c}        | abc                 | 3          |
+| 3     | a         | duplicate → remove `a` then add `a`     | {b,c,a}        | bca                 | 3          |
+| 4     | b         | duplicate → remove `b` then add `b`     | {c,a,b}        | cab                 | 3          |
+| 5     | c         | duplicate → remove `c` then add `c`     | {a,b,c}        | abc                 | 3          |
+| 6     | b         | duplicate → remove `a`,`b` then add `b` | {c,b}          | cb                  | 3          |
+| 7     | b         | duplicate → remove `c`,`b` then add `b` | {b}            | b                   | 3          |
+
+Final Result
+Longest substring without repeating characters = 3
+
+Possible substrings:
+
+abc
+bca
+cab
+
 //code 
 
 class Solution {
@@ -39,4 +61,5 @@ class Solution {
 
         return maxLen;
     }
+
 }
