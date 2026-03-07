@@ -14,6 +14,23 @@ Example 3:
 Input: target = 11, nums = [1,1,1,1,1,1,1,1]
 Output: 0
 
+🔹 Dry Run
+target = 7
+nums = [2,3,1,2,4,3]
+
+i	     Sum	   Window	       Min Length
+0	  	   2         [2]	           ∞
+1		   5         [2,3]	           ∞
+2		   6         [2,3,1]	       ∞
+3		   8         [2,3,1,2]	       4
+4	      10         [3,1,2,4]	       4
+4		   7         [1,2,4]           3
+4		   6         [2,4]             3
+5		   9         [2,4,3]	       3
+5	       7          [4,3]	           2
+
+Answer = 2
+
 //code
 
 class Solution {
@@ -36,4 +53,5 @@ class Solution {
 
         return minLen == Integer.MAX_VALUE ? 0 : minLen;
     }
+
 }
