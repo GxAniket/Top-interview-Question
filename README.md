@@ -52,6 +52,7 @@ All solutions are implemented in **Java**, with a focus on:
 - [Arrays / Strings](https://github.com/GxAniket/Top-interview-Question/tree/main/top-interview-questions-leetcode)
 - [Two Pointers](https://github.com/GxAniket/Top-interview-Question/tree/main/Two%20Pointers)
 - [Sliding Window](https://github.com/GxAniket/Top-interview-Question/tree/main/Sliding%20Window)
+- [Matrix](https://github.com/GxAniket/Top-interview-Question/tree/main/Matrix)
 - [Linked List](#linked-list)
 - [Binary Tree](#binary-tree-general)
 - [Binary Search](#binary-search)
