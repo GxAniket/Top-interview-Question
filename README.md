@@ -53,6 +53,7 @@ All solutions are implemented in **Java**, with a focus on:
 - [Two Pointers](https://github.com/GxAniket/Top-interview-Question/tree/main/Two%20Pointers)
 - [Sliding Window](https://github.com/GxAniket/Top-interview-Question/tree/main/Sliding%20Window)
 - [Matrix](https://github.com/GxAniket/Top-interview-Question/tree/main/Matrix)
+- [Hashmap](https://github.com/GxAniket/Top-interview-Question/tree/main/Hashmap)
 - [Linked List](#linked-list)
 - [Binary Tree](#binary-tree-general)
 - [Binary Search](#binary-search)
