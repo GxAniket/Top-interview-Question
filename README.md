@@ -54,6 +54,7 @@ All solutions are implemented in **Java**, with a focus on:
 - [Sliding Window](https://github.com/GxAniket/Top-interview-Question/tree/main/Sliding%20Window)
 - [Matrix](https://github.com/GxAniket/Top-interview-Question/tree/main/Matrix)
 - [Hashmap](https://github.com/GxAniket/Top-interview-Question/tree/main/Hashmap)
+- [Math](https://github.com/GxAniket/Top-interview-Question/tree/main/Math)
 - [Linked List](#linked-list)
 - [Binary Tree](#binary-tree-general)
 - [Binary Search](#binary-search)
@@ -149,38 +150,38 @@ All solutions are implemented in **Java**, with a focus on:
 <details>
 <summary>📌 Intervals</summary>
 
-- 228. Summary Ranges — Easy
-- 56. Merge Intervals — Medium
-- 57. Insert Interval — Medium
-- 452. Minimum Number of Arrows to Burst Balloons — Medium
+228. Summary Ranges — Easy
+56. Merge Intervals — Medium
+57. Insert Interval — Medium
+452. Minimum Number of Arrows to Burst Balloons — Medium
 
 </details>
 
 <details>
 <summary>📌 Stack</summary>
 
-- 20. Valid Parentheses — Easy
-- 71. Simplify Path — Medium
-- 155. Min Stack — Medium
-- 150. Evaluate Reverse Polish Notation — Medium
-- 224. Basic Calculator — Hard
+20. Valid Parentheses — Easy
+71. Simplify Path — Medium
+155. Min Stack — Medium
+150. Evaluate Reverse Polish Notation — Medium
+224. Basic Calculator — Hard
 
 </details>
 
 <details>
 <summary>📌 Linked List</summary>
 
-- 141. Linked List Cycle — Easy
-- 2. Add Two Numbers — Medium
-- 21. Merge Two Sorted Lists — Easy
-- 138. Copy List with Random Pointer — Medium
-- 92. Reverse Linked List II — Medium
-- 25. Reverse Nodes in k-Group — Hard
-- 19. Remove Nth Node From End of List — Medium
-- 82. Remove Duplicates from Sorted List II — Medium
-- 61. Rotate List — Medium
-- 86. Partition List — Medium
-- 146. LRU Cache — Medium
+141. Linked List Cycle — Easy
+2. Add Two Numbers — Medium
+21. Merge Two Sorted Lists — Easy
+138. Copy List with Random Pointer — Medium
+92. Reverse Linked List II — Medium
+25. Reverse Nodes in k-Group — Hard
+19. Remove Nth Node From End of List — Medium
+82. Remove Duplicates from Sorted List II — Medium
+61. Rotate List — Medium
+86. Partition List — Medium
+146. LRU Cache — Medium
 
 </details>
 
