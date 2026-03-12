@@ -17,6 +17,25 @@ Example 3:
 Input: ransomNote = "aa", magazine = "aab"
 Output: true
 
+//Dry Run
+
+Input
+
+ransomNote = "aa"
+magazine = "aab"
+
+Frequency after scanning magazine:
+
+a → 2
+b → 1
+
+Process ransomNote:
+
+a → 1
+a → 0
+
+All letters available → true
+
 //code 
 
 class Solution {
@@ -38,4 +57,5 @@ class Solution {
 
         return true;
     }
+
 }
