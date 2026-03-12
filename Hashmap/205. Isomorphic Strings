@@ -34,6 +34,24 @@ Input: s = "paper", t = "title"
 
 Output: true
 
+// Dry Run
+
+Input
+
+s = "paper"
+t = "title"
+
+Mapping:
+
+s	t
+p	t
+a	i
+p	t
+e	l
+r	e
+
+All mappings consistent → true
+
 //code 
 
 class Solution {
@@ -68,4 +86,5 @@ class Solution {
 
         return true;
     }
+
 }
