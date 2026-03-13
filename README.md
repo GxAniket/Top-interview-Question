@@ -50,6 +50,7 @@ All solutions are implemented in **Java**, with a focus on:
 ## 🗂️ Problem Categories
 
 - [Arrays / Strings](https://github.com/GxAniket/Top-interview-Question/tree/main/top-interview-questions-leetcode)
+- [All Sorting algorithma in java](https://github.com/GxAniket/Top-interview-Question/tree/main/All%20Sorting%20algorithma%20in%20%20java)
 - [Two Pointers](https://github.com/GxAniket/Top-interview-Question/tree/main/Two%20Pointers)
 - [Sliding Window](https://github.com/GxAniket/Top-interview-Question/tree/main/Sliding%20Window)
 - [Matrix](https://github.com/GxAniket/Top-interview-Question/tree/main/Matrix)
