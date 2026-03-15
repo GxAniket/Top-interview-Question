@@ -1,3 +1,22 @@
+// 2️⃣ Binary Search
+// Idea
+
+// Binary Search sorted array par kaam karta hai.
+
+// Steps:
+
+// 1. Middle element find karo
+// 2. Agar key middle se chhoti → left side search
+// 3. Agar key middle se badi → right side search
+
+// Time Complexity:
+
+// Case	Complexity
+// Best	O(1)
+// Worst	O(log n)
+
+//code 
+    
 public class BinarySearch {
 
     static int binarySearch(int arr[], int key) {
