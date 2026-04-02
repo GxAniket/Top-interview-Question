@@ -137,15 +137,15 @@ All solutions are implemented in **Java**, with a focus on:
 <details>
 <summary>📌 HashMap / Hashing </summary>
 
-- 383. Ransom Note — Easy
-- 205. Isomorphic Strings — Easy
-- 290. Word Pattern — Easy
-- 242. Valid Anagram — Easy
-- 49. Group Anagrams — Medium
-- 1. Two Sum — Easy
-- 202. Happy Number — Easy
-- 219. Contains Duplicate II — Easy
-- 128. Longest Consecutive Sequence — Medium
+383. Ransom Note — Easy
+205. Isomorphic Strings — Easy
+290. Word Pattern — Easy
+242. Valid Anagram — Easy
+49. Group Anagrams — Medium
+1. Two Sum — Easy
+202. Happy Number — Easy
+219. Contains Duplicate II — Easy
+128. Longest Consecutive Sequence — Medium
 
 </details>
 
@@ -217,57 +217,56 @@ All solutions are implemented in **Java**, with a focus on:
 <details>
 <summary>📌 Graph General</summary>
 
-- 200. Number of Islands — Medium
-- 130. Surrounded Regions — Medium
-- 133. Clone Graph — Medium
-- 399. Evaluate Division — Medium
-- 207. Course Schedule — Medium
-- 210. Course Schedule II — Medium
-- 909. Snakes and Ladders — Medium
-- 433. Minimum Genetic Mutation — Medium
-- 127. Word Ladder — Hard
+200. Number of Islands — Medium
+130. Surrounded Regions — Medium
+133. Clone Graph — Medium
+399. Evaluate Division — Medium
+207. Course Schedule — Medium
+210. Course Schedule II — Medium
+909. Snakes and Ladders — Medium
+433. Minimum Genetic Mutation — Medium
+127. Word Ladder — Hard
 
 </details>
 
 <details>
 <summary>📌 Trie</summary>
 
-- 208. Implement Trie (Prefix Tree) — Medium
-- 211. Design Add and Search Words Data Structure — Medium
-- 212. Word Search II — Hard 
+208. Implement Trie (Prefix Tree) — Medium
+211. Design Add and Search Words Data Structure — Medium
+212. Word Search II — Hard 
 
 </details>
 
 <details>
 <summary>📌 Backtracking</summary>
 
-- 17. Letter Combinations of a Phone Number — Medium
-- 77. Combinations — Medium
-- 46. Permutations — Medium
-- 39. Combination Sum — Medium
-- 52. N-Queens II — Hard
-- 22. Generate Parentheses — Medium
-- 79. Word Search — Medium
+17. Letter Combinations of a Phone Number — Medium
+77. Combinations — Medium
+46. Permutations — Medium
+39. Combination Sum — Medium
+52. N-Queens II — Hard
+22. Generate Parentheses — Medium79. Word Search — Medium
 
 </details>
 
 <details>
 <summary>📌 Kadane's Algorithm</summary>
 
-- 53. Maximum Subarray  
-- 918. Maximum Sum Circular Subarray  
+53. Maximum Subarray  
+918. Maximum Sum Circular Subarray  
 
 </details>
 
 <details>
 <summary>📌 Divide & Conquer</summary>
 
-- 108. Convert Sorted Array to Binary Search Tree — Easy  
-- 148. Sort List — Medium  
-- 427. Construct Quad Tree — Medium  
-- 23. Merge k Sorted Lists — Hard  
-- 53. Maximum Subarray — Medium  
-- 918. Maximum Sum Circular Subarray — Medium  
+108. Convert Sorted Array to Binary Search Tree — Easy  
+148. Sort List — Medium  
+427. Construct Quad Tree — Medium  
+23. Merge k Sorted Lists — Hard  
+53. Maximum Subarray — Medium  
+918. Maximum Sum Circular Subarray — Medium  
 
 </details>
 
