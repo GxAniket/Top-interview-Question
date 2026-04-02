@@ -58,7 +58,7 @@ All solutions are implemented in **Java**, with a focus on:
 - [Math](https://github.com/GxAniket/Top-interview-Question/tree/main/Math)
 - [Linked List](#linked-list)
 - [Binary Tree](#binary-tree-general)
-- [Kadane's Algorithm](https://github.com/GxAniket/Top-interview-Question/tree/main/Kadane's%20Algorithm).
+- [Kadane's Algorithm](https://github.com/GxAniket/Top-interview-Question/tree/main/Kadane's%20Algorithm)
 - [Binary Search](#binary-search)
 - [Graph](#graph-general)
 - [Dynamic Programming](#1d-dp)
