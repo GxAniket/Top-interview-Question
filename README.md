@@ -252,14 +252,22 @@ All solutions are implemented in **Java**, with a focus on:
 </details>
 
 <details>
+<summary>📌 Kadane's Algorithm</summary>
+
+- 53. Maximum Subarray  
+- 918. Maximum Sum Circular Subarray  
+
+</details>
+
+<details>
 <summary>📌 Divide & Conquer</summary>
 
-- 108. Convert Sorted Array to Binary Search Tree — Easy
-- 148. Sort List — Medium
-- 427. Construct Quad Tree — Medium
-- 23. Merge k Sorted Lists — Hard
-- 53. Maximum Subarray — Medium
-- 918. Maximum Sum Circular Subarray — Medium 
+- 108. Convert Sorted Array to Binary Search Tree — Easy  
+- 148. Sort List — Medium  
+- 427. Construct Quad Tree — Medium  
+- 23. Merge k Sorted Lists — Hard  
+- 53. Maximum Subarray — Medium  
+- 918. Maximum Sum Circular Subarray — Medium  
 
 </details>
 
